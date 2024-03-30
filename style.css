@@ -1,0 +1,361 @@
+/* container start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid img {
+  height: 3rem;
+}
+.container-fluid {
+  padding: 5px;
+}
+.row img {
+  width: 100%;
+}
+.navbar {
+  background-color: rgba(32, 32, 32, 0.61);
+}
+/* End */
+
+/* carousel start */
+.navbar-brand {
+  color: white;
+  font-family: "bold";
+}
+.nav-item a {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.carousel-caption h1 {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.carousel-caption h2 {
+  font-size: 40px;
+  color: rgba(245, 190, 9, 0.911);
+}
+/* end */
+
+.head {
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(pink, papayawhip);
+  border: 2px solid black;
+}
+
+/* <!-- container start --> */
+.para {
+  margin: 8rem 2rem;
+}
+.row img {
+  height: 80%;
+  width: 80%;
+}
+.row img {
+  margin: 70px;
+}
+.para h3 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: rgb(185, 143, 30);
+}
+.para p {
+  margin: 0px 10px;
+}
+/* <!-- container end --> */
+
+/* header start*/
+.headers {
+  margin: 10px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 3rem;
+}
+.card:hover {
+  box-shadow: 2px 2px 2px 2px rgba(255, 0, 0, 0.397);
+}
+.headers p {
+  text-align: center;
+}
+.headers h1 {
+  text-align: center;
+  color: rgb(155, 68, 68);
+}
+
+.card-body {
+  background-color: rgb(39, 40, 41);
+}
+#horizon {
+  height: 5px;
+  color: rgb(185, 143, 30);
+  width: 100%;
+}
+.card-body h5 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+.card-body p {
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+/* headers end */
+
+/* our client start */
+.header_h1 {
+  text-align: center;
+  text-shadow: 2px 2px 2px blue;
+}
+#main {
+  margin: 10px 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+.elem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+  width: 100%;
+  border-bottom: 3px solid white;
+  position: relative;
+}
+.elem h1 {
+  color: white;
+  font-size: 5vw;
+  z-index: 9;
+  mix-blend-mode: difference;
+  margin: 0px 10px;
+}
+.elem img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: center;
+  position: absolute;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: all linear 0.3s;
+}
+/* our client End */
+
+
+/* Foreign client */
+#meetArtists{
+  background-color: whitesmoke;
+}
+.Artists{
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#meetArtists>h1{
+  color: black;
+  font-size: 3vw;
+  text-shadow: 2px 2px 2px blue;
+  text-align: center;
+  margin-top: 3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#singh{
+  width: 25rem;
+  height: 90vh;
+  border-radius: 40px;
+  position: relative;
+}
+#singh>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+
+.artist-detail{
+  background-color: rgb(255, 38, 0);
+  opacity: 0.8;
+  color: white;
+  position: absolute;
+  bottom: 2px;
+  width: 80%;
+  height: 45vh;
+  left: 10%;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: -10rem;
+  transition: all ease-out 1s;
+  visibility: hidden;
+}
+#singh:hover .artist-detail{
+  visibility: visible;
+  margin-bottom: 0;
+}
+
+.rightside{
+  height: 90vh;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.rightside>div{
+  height: 50%;
+  /* background: aqua; */
+  width: 100%;
+  border-radius: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.rightside>div>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+
+.rightside>div:hover .artist-detail{
+  visibility: visible;
+  margin-bottom: 0;
+}
+
+.artist-detail>p{
+  display: flex;
+  justify-content: space-around;
+
+}
+.artist-detail>p>span:first-child{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  }
+  .artist-detail>p>span:last-child{
+      margin-top: 20px;
+      color: rgb(12, 28, 253);
+      font-weight: 500;
+  }
+  /* End */
+
+/* div start */
+.checkbox {
+  text-align: center;
+}
+.checkbox button {
+  margin: 2rem;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
+  background-color: #b98f1e;
+  color: white;
+  padding: 7px 35px;
+}
+.checkbox1 {
+  margin: 20px 0px;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+.div1 p {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.div1 h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f3b713;
+}
+.div1 {
+  background-color: rgba(255, 0, 0, 0.534);
+}
+/* div end */
+
+/* start */
+.heade12 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head2 {
+  padding: 1rem;
+  background-color: whitesmoke;
+}
+.heade12 h2 {
+  font-size: 2rem;
+}
+.heade12 button {
+  border: none;
+  background-color: #b98f1e;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+/* End */
+
+/* Heading start */
+.logoing {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(./img/img19.jpg);
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.logoing img {
+  margin: 14px 25px;
+}
+.icon {
+  font-size: 25px;
+  margin: 0px 30px;
+  color: white;
+}
+.service hr {
+  color: white;
+  height: 10px;
+}
+.footer {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  line-height: 6vh;
+}
+/* heading End */
+
+
+.header_1 h4 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.header_1 p {
+  color: white;
+  text-align: center;
+}

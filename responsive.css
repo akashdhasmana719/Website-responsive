@@ -1,0 +1,81 @@
+@media (max-width:758px) {
+    .para{
+        margin-bottom: 400px;
+    }
+}
+
+@media (max-width:898px) {
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        margin: 10px;
+    }
+  
+}
+@media (max-width:580px) {
+    .div1 p{
+        gap: 10px;
+        font-size: 2.3rem;
+        margin: 0px 10px;
+    }
+    .div1 h5{
+        gap: 10px;
+        font-size: 1rem;
+        margin: 0px 10px;
+    }
+    .row img{
+        margin: 2rem 4rem;
+    }
+    .para {
+        margin: 2px;
+        text-align: center;
+    }
+}
+
+@media (max-width:604px) {
+    .para {
+        margin: 2px 15px;
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (max-width:700px) {
+    .para {
+        margin: 2px 15px;
+        text-align: center;
+        display: block;
+    }
+    .heade12 button{
+        padding: 6px 30px;
+    }
+    
+}
+
+@media (max-width:540px) {
+  .service ul{
+    padding: 5px 1rem;
+    line-height: 2rem;
+  }
+  .heade12 button{
+    width: 50%;
+}
+
+}
+@media (max-width:826px) {
+ #singh img{
+    margin-left: 10%;
+   height: 100%;
+   width: 90%;
+ }
+ #manoj img{
+    height: 100%;
+   width: 90%;
+ }
+ #devi{
+    height: 50%;
+    width: 90%;
+ }
+ }
+
